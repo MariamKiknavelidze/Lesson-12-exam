@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "font1";
+  src: url("../src/fonts/Poppins-Black.woff2") format("woff2"),
+    url("../src/fonts/Poppins-Black.woff") format("woff"),
+    url("../src/fonts/Poppins-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}

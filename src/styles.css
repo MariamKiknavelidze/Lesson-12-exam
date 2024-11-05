@@ -33,8 +33,7 @@ header ul {
   vertical-align: middle;
 }
 header li:hover {
-  border-bottom: 2px solid #29B24E ;
-  ;
+  border-bottom: 2px solid #29b24e;
 }
 button {
   /* display: flex; */
@@ -47,8 +46,6 @@ button {
   height: 47px;
   color: white;
   border: none;
-
-  
 }
 .logo {
   width: 48px;
@@ -56,69 +53,64 @@ button {
   top: 42px;
   left: 140px;
 }
-.container {
+/* .container {
   display: flex;
   flex-direction: column;
-}
+} */
 .location {
   max-width: 395px;
   width: 100%;
   padding: 32px;
-
   border-radius: 2px solid blue;
   background-color: blck;
 }
-.findhouse {
-  display:flex;
+
+findtitle {
+  display: flex;
   flex-wrap: wrap;
-  width: 100%;
-  max-width: 1225px;
-  /* position: relative; */
-  border-radius: 25px;
-}
-.findhouse > img {
-  /* width: 100%; */
-  max-width: 1225px;
-  height: 751px;
-}
-.findhouse>div{
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-content: center;
-}
-
-/* 
-.findhouse h3 {
-  /* position: absolute;
-  text-align: center;
-  color: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(0, 0, 0, 0.47) 100%
-  );
-  width: 100%;
-  /* padding: 100px; */
-  /* border-radius: 24px;
-  margin-bottom: 20px;
-  transform: translate(300px, 50px);
-  font-size: 48px; */ */
-
-} */
-
-/* .findhouse p {
+  justify-content: center;
+  align-content: center;
   position: absolute;
+  top: 200px;
+  left: 0;
+  right: 0;
+}
+.findhouse {
+  max-width: 1225px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.findhouse h3 {
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  right: 0;
+  font-size: 48px;
+  font-weight: 600;
+}
+.findhouse p {
+  position: absolute;
+  top: 336px;
+  left: 250px;
+  right: 0;
   font-size: 16px;
-  color: black;
-  margin: 0;
-} */
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.form {
+  position: absolute;
+  top: 337px;
+  left: 1005px;
+  /* right: 0; */
+  width: 324px;
+  border-radius: 10px;
+}
 .gridContainer {
   display: flex;
-  /* grid-template-columns: repeat(2, 1fr); */
-  /* grid-template-columns: auto auto; */
   gap: 20px;
-  width: 100%;
-  /* position: absolute; */
   max-width: 1640px;
+  width: 100%;
   margin: 0 auto;
 }
